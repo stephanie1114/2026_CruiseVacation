@@ -1,0 +1,21 @@
+{
+  "name": "2026 Cruise Trip",
+  "short_name": "Cruise2026",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4a8588",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://duk.tw/sjDdWr.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://duk.tw/sjDdWr.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
