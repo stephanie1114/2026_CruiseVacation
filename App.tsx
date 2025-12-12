@@ -1,10 +1,9 @@
-
 import React, { useState, useEffect } from 'react';
 import { TripData, Member, ExpenseItem, PreparationItem } from './types';
 import { SAMPLE_TRIP } from './constants';
 import { ItineraryView } from './components/ItineraryView';
 import { 
-  Map, 
+  Map as MapIcon, 
   MapPin,
   Wallet, 
   CheckSquare, 
@@ -634,7 +633,7 @@ const OverviewView: React.FC<ViewProps> = ({ trip, fontScale, isDarkMode, onShow
           
           <div className="flex items-center mb-5 relative z-10">
             <div className="p-2 bg-stone-100 dark:bg-stone-800 rounded-full mr-3 text-stone-600 dark:text-stone-300">
-               <Map className="h-5 w-5" />
+               <MapIcon className="h-5 w-5" />
             </div>
             <h3 className={`${f.heading} font-bold text-stone-800 dark:text-white font-rounded`}>旅程總覽</h3>
           </div>
@@ -1080,7 +1079,7 @@ const App: React.FC = () => {
   }, []);
 
   const navItems = [
-    { id: 'itinerary', label: '行程', icon: Map },
+    { id: 'itinerary', label: '行程', icon: MapIcon }, // Use the aliased icon
     { id: 'members', label: '成員', icon: Users },
     { id: 'overview', label: '總覽', icon: Home },
     { id: 'expenses', label: '花費', icon: Wallet },
