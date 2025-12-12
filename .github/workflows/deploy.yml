@@ -21,9 +21,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # cache: 'npm'  <-- 移除了這行導致錯誤的快取設定
 
-      - name: Force Clean Install
+      - name: Install Dependencies
         run: |
           rm -rf node_modules
           rm -f package-lock.json
