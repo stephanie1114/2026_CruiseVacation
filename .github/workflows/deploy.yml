@@ -22,8 +22,12 @@ jobs:
           node-version: 20
           cache: 'npm'
 
-      - name: Install dependencies
-        run: npm install
+      - name: Force Clean Install
+        # 這裡會強制刪除之前的安裝紀錄，避免 Mac 與 Linux 衝突
+        run: |
+          rm -rf node_modules
+          rm -f package-lock.json
+          npm install
 
       - name: Build
         run: npm run build
