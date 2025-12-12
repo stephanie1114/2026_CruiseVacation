@@ -1,3 +1,4 @@
+
 name: Deploy to GitHub Pages
 
 on:
@@ -23,7 +24,6 @@ jobs:
           cache: 'npm'
 
       - name: Force Clean Install
-        # 這裡會強制刪除之前的安裝紀錄，避免 Mac 與 Linux 衝突
         run: |
           rm -rf node_modules
           rm -f package-lock.json
