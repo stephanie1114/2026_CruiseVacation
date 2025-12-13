@@ -75,7 +75,7 @@ DAY7：下船 ✈️ 樟宜機場周邊 | 星耀樟宜室內瀑布雨漩渦、�
 或繞到附近讚美廣場(晚上美麗燈光教堂、夜間酒吧)走走後自行回飯店`,type:L.Rest,location:"lyf Funan Singapore"}]},{dayNumber:3,date:"Jan 12",title:"悠閒早餐 登船🚢海洋贊禮號",activities:[{time:"09:00 AM",title:"亞坤咖椰吐司",description:`飯店旁邊就有一家
 知名新加坡式早餐
 道地吃法：溫泉蛋灑上胡椒+醬油後攪拌，再用吐司沾蛋液
-吃完再上去整理行李`,type:L.Food,location:"Ya Kun Kaya Toast (Funan)"},{time:"11:00 AM",title:"飯店退房",description:"11:00大廳集合退房，準備前往郵輪囉!",type:L.Rest,location:"lyf Funan Singapore"},{time:"11:30 AM - 11:00 PM",title:"郵輪登船",description:`🚇 SMRT政府大廈➔濱海南碼頭
+吃完再上去整理行李`,type:L.Food,location:"Ya Kun Kaya Toast (Funan)"},{time:"11:00 AM",title:"飯店退房",description:"11:00大廳集合退房，準備前往郵輪囉!",type:L.Rest,location:"lyf Funan Singapore"},{time:"11:30 AM - 12:00 PM",title:"郵輪登船",description:`🚇 SMRT政府大廈➔濱海南碼頭
 登船後就可以自由活動
 享受船上設施&餐食
 想喝非酒精的飲料
