@@ -74,7 +74,7 @@ export const ItineraryView: React.FC<ItineraryViewProps> = ({ trip, fontScale })
       ];
 
       const brandPhrases = [
-        "SMRT機場機場➔丹那美拉(轉綠線)➔政府大廈",
+        "SMRT機場➔丹那美拉(轉綠線)➔政府大廈",
         "SMRT政府大廈➔萊佛士坊",
         "SMRT直落亞逸➔海灣舫",
         "SMRT海灣舫➔濱海灣(轉紅線)➔政府大廈",
