@@ -187,7 +187,7 @@ DAY7：下船 ✈️ 樟宜機場周邊 | 星耀樟宜室內瀑布雨漩渦、�
           location: "lyf Funan Singapore"
         },
         {
-          time: "11:30 AM - 11:00 PM",
+          time: "11:30 AM - 12:00 PM",
           title: "郵輪登船",
           description: "🚇 SMRT政府大廈➔濱海南碼頭\n登船後就可以自由活動\n享受船上設施&餐食\n想喝非酒精的飲料\n請找阿干或千千點喔(茶點小精靈)\n重頭戲：晚上看船上的秀",
           type: ActivityType.Cruise
