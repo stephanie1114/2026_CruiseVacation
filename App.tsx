@@ -345,12 +345,12 @@ const QASection: React.FC<QASectionProps> = ({ fontScale, onShowLightbox }) => {
           a: (
             <div className="space-y-3 pt-1">
               <div>
-                <strong>水：</strong>每房提供2瓶水(不會再補)，本次有再統一買1箱水，第3、4天各房再各送去2瓶。<br />
-                船上自助餐廳可裝水(通常距離遠&需排隊)，但限用旁邊提供的杯子裝，再倒進自己瓶子，切勿直接拿瓶子裝水。<br />
+                <strong>水：</strong>每房提供2瓶水(不會再補)，本次有再統一買1箱水，船上第2、3天各房再各送去2瓶。<br />
+                船上自助餐廳可裝水(通常距離遠&需排隊)，但限用旁邊或船上提供的杯子裝，再倒進自己瓶子，切勿直接拿自己寶特瓶裝水。<br />
                 若喝水量大，可登船前購買大瓶裝水放行李箱內帶上船。
               </div>
               <div>
-                <strong>茶點、汽水、其他非酒精類飲品：</strong>本團有買2人份的茶飲喝到飽套餐14人共用，有飲料需求請隨時聯繫「茶點小精靈」阿干&千千。<br />
+                <strong>茶點、汽水、其他非酒精類飲品：</strong>本團有買2人份的茶飲喝到飽套餐14人共用，有飲料需求請隨時聯繫「茶點小精靈」政弘&千千。<br />
                 (吃到飽方案每次點餐需間隔10分鐘)
               </div>
             </div>
@@ -837,7 +837,7 @@ const ExpensesView: React.FC<ViewProps> = ({ trip, fontScale }) => {
 
   return (
     <div className="p-6 pb-32 animate-in fade-in duration-500 max-w-2xl mx-auto">
-      <h2 className={`${f.title} font-bold text-stone-900 dark:text-white mb-6 font-rounded`}>預算總覽</h2>
+      <h2 className={`${f.title} font-bold text-stone-900 dark:text-white mb-6 font-rounded`}>目前未結算消費總覽</h2>
       
       <div className="space-y-6">
         {categories.map((category, idx) => (
