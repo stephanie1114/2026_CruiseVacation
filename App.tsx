@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { TripData, Member, ExpenseItem, PreparationItem } from './types';
 import { SAMPLE_TRIP } from './constants';
 import { ItineraryView } from './components/ItineraryView';
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import { 
   Map as MapIcon, 
   MapPin,
@@ -1286,16 +1287,35 @@ const App: React.FC = () => {
           onClick={() => setLightboxImg(null)}
         >
           <button 
-            className="absolute top-4 right-4 p-2 bg-white/20 hover:bg-white/40 rounded-full text-white backdrop-blur-sm"
-            onClick={() => setLightboxImg(null)}
+            className="absolute top-4 right-4 z-[110] p-2 bg-white/20 hover:bg-white/40 rounded-full text-white backdrop-blur-sm"
+            onClick={(e) => {
+              e.stopPropagation();
+              setLightboxImg(null);
+            }}
           >
             <X className="h-6 w-6" />
           </button>
-          <img 
-            src={lightboxImg} 
-            alt="Fullscreen Preview" 
-            className="max-w-full max-h-full object-contain rounded-lg shadow-2xl"
-          />
+          
+          {/* Stop propagation on click to prevent closing when interacting with the zoom component */}
+          <div onClick={(e) => e.stopPropagation()} className="w-full h-full flex items-center justify-center">
+            <TransformWrapper
+              initialScale={1}
+              minScale={0.5}
+              maxScale={4}
+              centerOnInit={true}
+            >
+              <TransformComponent 
+                wrapperStyle={{ width: "100%", height: "100%" }}
+                contentStyle={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center" }}
+              >
+                <img 
+                  src={lightboxImg} 
+                  alt="Fullscreen Preview" 
+                  className="max-w-[95vw] max-h-[85vh] object-contain rounded-lg shadow-2xl" 
+                />
+              </TransformComponent>
+            </TransformWrapper>
+          </div>
         </div>
       )}
     </div>
