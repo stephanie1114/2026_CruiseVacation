@@ -1167,7 +1167,7 @@ const App: React.FC = () => {
       {(currentView === 'overview' || currentView === 'itinerary') && (
         <button
           onClick={() => setIsConverterOpen(true)}
-          className="fixed right-[10px] bottom-[80px] z-40 w-14 h-14 rounded-full bg-brand-500/20 hover:bg-brand-500/30 backdrop-blur-sm text-brand-600 dark:text-brand-300 shadow-lg flex items-center justify-center transition-transform active:scale-95 animate-in zoom-in duration-300 border border-brand-500/20"
+          className="fixed right-[10px] bottom-[100px] z-40 w-14 h-14 rounded-full bg-brand-500/20 hover:bg-brand-500/30 backdrop-blur-sm text-brand-600 dark:text-brand-300 shadow-lg flex items-center justify-center transition-transform active:scale-95 animate-in zoom-in duration-300 border border-brand-500/20"
         >
           <CircleDollarSign className="h-8 w-8" />
         </button>
