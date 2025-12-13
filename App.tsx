@@ -650,7 +650,7 @@ const OverviewView: React.FC<ViewProps> = ({ trip, fontScale, isDarkMode, onShow
              <div className="p-2 bg-brand-100 dark:bg-brand-900/30 rounded-full mr-3 text-brand-600 dark:text-brand-400">
                <Thermometer className="h-5 w-5" />
              </div>
-             <h3 className={`${f.heading} font-bold text-stone-800 dark:text-white font-rounded`}>海上氣象站</h3>
+             <h3 className={`${f.heading} font-bold text-stone-800 dark:text-white font-rounded`}>海上氣象站(一周前才有參考價值)</h3>
            </div>
            
            <div className="flex overflow-x-auto no-scrollbar space-x-3 pb-2">
