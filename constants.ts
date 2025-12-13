@@ -14,7 +14,7 @@ DAY5：停靠🇹🇭普吉島 | 08:00下船 轉乘接駁船; 岸上套裝觀光
 DAY6：海上巡航日 [可自由活動] | 享受船上設施
 DAY7：下船 ✈️ 樟宜機場周邊 | 星耀樟宜室內瀑布雨漩渦、伴手禮採買`,
   members: [
-    { name: "阿干 & Dennis", role: "茶飲卡小精靈", roomNumber: "11258", notes: "出入境管理中心" },
+    { name: "政弘 & Dennis", role: "茶飲卡小精靈", roomNumber: "11258", notes: "出入境管理中心" },
     { name: "千千 & 明熹", role: "茶飲卡小精靈", roomNumber: "11656", notes: "旅程小幫手" },
     { name: "Alice & Jimmy", role: "", roomNumber: "11658", notes: "千千朋友" },
     { name: "明皓 & 阿泰", role: "", roomNumber: "11250", notes: "明熹弟弟" },
