@@ -25,7 +25,7 @@ DAY7：下船 ✈️ 樟宜機場周邊 | 星耀樟宜室內瀑布雨漩渦、�
   expenses: [
     // 船上相關
     { category: "船上相關", description: "普吉島岸上觀光 James bond島快艇", estimatedCost: "每人NT$ 4,883" },
-    { category: "船上相關", description: "檳城14人座包車", estimatedCost: "每人NT$ 5XX" },
+    { category: "船上相關", description: "檳城14人座包車", estimatedCost: "每人NT$ 300" },
     { category: "船上相關", description: "額外瓶裝水1箱14人分", estimatedCost: "每人NT$ 99" },
     { category: "船上相關", description: "茶點飲料暢飲14人分(4日)", estimatedCost: "每人NT$ 579" },
     { category: "船上相關", description: "付費餐廳牛排", estimatedCost: "每人NT$ 1,326", note: "11250、11650共4人千&熹付" },
