@@ -248,10 +248,10 @@ const QASection: React.FC<QASectionProps> = ({ fontScale, onShowLightbox }) => {
           a: (
             <div className="space-y-3 pt-1">
               <div>
-                <strong>🇸🇬 新加坡：</strong>除了熟食中心以外，大部分都可以刷信用卡(包含搭乘地鐵、公車)。建議可每人到機場後小換<span className="text-rose-500 font-bold mx-1">30-50美金</span>等值的新幣現金吃路邊攤。
+                <strong>🇸🇬 新加坡：</strong>除了熟食中心以外，大部分都可以刷信用卡(包含搭乘地鐵、公車)。建議可每人到機場後小換<span className="text-rose-500 font-bold mx-1">15-30美金</span>等值的新幣現金吃路邊攤。
               </div>
               <div>
-                <strong>🇲🇾 檳城：</strong>建議每人可攜帶約<span className="text-rose-500 font-bold mx-1">20-30美金</span>到檳城下船後換匯(馬幣)，以供吃小吃時使用。
+                <strong>🇲🇾 檳城：</strong>建議每人可攜帶約<span className="text-rose-500 font-bold mx-1">15-20美金</span>到檳城下船後換匯(馬幣)，以供吃小吃時使用。
               </div>
               <div>
                 <strong>🇹🇭 普吉島：</strong>已買套裝行程基本上不需要換泰銖，如果有吃小攤的需求，政弘那邊有小量泰銖可以記帳後使用，回台灣再算。
