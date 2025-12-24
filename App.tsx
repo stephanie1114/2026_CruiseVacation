@@ -560,7 +560,7 @@ const OverviewView: React.FC<ViewProps> = ({ trip, fontScale, isDarkMode, onShow
                <div className="flex-shrink-0 mr-4">
                  <div className={`
                    flex items-center justify-center w-16 py-1.5 rounded-xl text-[11px] font-bold tracking-wider uppercase shadow-sm border
-                   ${idx === 0 || idx === lines.length - 1 
+                   ${(idx === 0 || idx === 6) // Force Day 1 (0) and Day 7 (6) to be Red
                      ? 'bg-rose-50 text-rose-600 border-rose-100 dark:bg-rose-900/20 dark:text-rose-300 dark:border-rose-900/30' 
                      : 'bg-white text-brand-600 border-stone-200 dark:bg-brand-900/10 dark:text-brand-300 dark:border-brand-900/30'}
                  `}>
