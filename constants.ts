@@ -4,7 +4,7 @@ import { TripData, ActivityType } from './types';
 export const SAMPLE_TRIP: TripData = {
   destination: "Singapore & Phuket",
   startDate: "2025-01-10",
-  endDate: "2025-01-16",
+  endDate: "2025-01-17",
   title: "Ovation of the Seas 🚢 ：\n🇸🇬新加坡 / 🇲🇾檳城 / 🇹🇭普吉島",
   overview: `DAY1：抵達 🇸🇬 新加坡 [可自由活動] | 入住飯店 [lyf funan](https://www.google.com/maps/search/?api=1&query=lyf+Funan+Singapore); 市區觀光：魚尾獅、麥士威熟食中心、金沙酒店、濱海灣花園
 DAY2：聖淘沙環球影城一日遊🎢 [可自由活動] | 環球影城輕鬆玩，晚上克拉碼頭小吃
