@@ -497,6 +497,8 @@ const OverviewView: React.FC<ViewProps> = ({ trip, fontScale, isDarkMode, onShow
           if (!match) return null;
 
           const dayLabel = match[1].replace('DAY', 'DAY ');
+          const dayLabel = dayLabelRaw.includes('8') ? `${dayLabelRaw}~` : dayLabelRaw;
+          
           const titleRaw = match[2].trim();
           const detailsRaw = match[3] ? match[3].trim() : '';
 
