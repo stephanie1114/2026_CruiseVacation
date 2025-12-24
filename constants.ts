@@ -4,7 +4,7 @@ import { TripData, ActivityType } from './types';
 export const SAMPLE_TRIP: TripData = {
   destination: "Singapore & Phuket",
   startDate: "2025-01-10",
-  endDate: "2025-01-17",
+  endDate: "2025-01-16",
   title: "Ovation of the Seas 🚢 ：\n🇸🇬新加坡 / 🇲🇾檳城 / 🇹🇭普吉島",
   overview: `DAY1：抵達 🇸🇬 新加坡 [可自由活動] | 入住飯店 [lyf funan](https://www.google.com/maps/search/?api=1&query=lyf+Funan+Singapore); 市區觀光：魚尾獅、麥士威熟食中心、金沙酒店、濱海灣花園
 DAY2：聖淘沙環球影城一日遊🎢 [可自由活動] | 環球影城輕鬆玩，晚上克拉碼頭小吃
@@ -13,7 +13,7 @@ DAY4：停靠🇲🇾檳城 | 15:00下船; 包14人座車前往升旗山; 一起
 DAY5：停靠🇹🇭普吉島 | 08:00下船 轉乘接駁船; 岸上套裝觀光：攀牙灣、考甘平島、潘怡島高腳屋水上村落、普吉島餐廳用餐; 船上牛排晚餐
 DAY6：海上巡航日 [可自由活動] | 享受船上設施
 DAY7：下船 ✈️ 樟宜機場周邊 | 星耀樟宜室內瀑布雨漩渦、伴手禮採買
-DAY8~：部分成員繼續行程[自由活動]; 景點參考:小印度區、阿拉伯區(哈芝巷)、牛車水、新加坡動物園+夜間野生動物園、老巴刹沙嗲一條街`,
+DAY8~：部分成員繼續行程[自由活動] | 景點參考:小印度區、阿拉伯區(哈芝巷)、牛車水、新加坡動物園+夜間野生動物園、老巴刹沙嗲一條街`,
   members: [
     { name: "政弘 & Dennis", role: "茶飲卡小精靈", roomNumber: "11258", notes: "出入境管理中心" },
     { name: "千千 & 明熹", role: "茶飲卡小精靈", roomNumber: "11656", notes: "旅程小幫手" },
