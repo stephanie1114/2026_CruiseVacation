@@ -840,7 +840,7 @@ const ExpensesView: React.FC<ViewProps> = ({ trip, fontScale }) => {
 
   return (
     <div className="p-6 pb-32 animate-in fade-in duration-500 max-w-2xl mx-auto">
-      <h2 className={`${f.title} font-bold text-stone-900 dark:text-white mb-6 font-rounded`}>目前未結算消費總覽</h2>
+      <h2 className={`${f.title} font-bold text-stone-900 dark:text-white mb-6 font-rounded`}>船上其他消費總覽(已結算)</h2>
       
       <div className="space-y-6">
         {categories.map((category, idx) => (
