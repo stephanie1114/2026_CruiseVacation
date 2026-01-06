@@ -472,6 +472,8 @@ const OverviewView: React.FC<ViewProps> = ({ trip, fontScale, isDarkMode, onShow
       case 'cloudy': return <Cloud className="h-6 w-6 text-stone-400" />;
       case 'sun': return <Sun className="h-6 w-6 text-amber-500" />;
       case 'partly': return <CloudSun className="h-6 w-6 text-brand-400" />;
+      case 'storm': return <CloudLightning className="h-6 w-6 text-purple-500" />; // 範例：新增雷雨
+      case 'windy': return <Wind className="h-6 w-6 text-teal-500" />;  // 範例：新增強風
       default: return <Sun className="h-6 w-6 text-amber-500" />;
     }
   };
