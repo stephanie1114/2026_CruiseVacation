@@ -368,7 +368,7 @@ const QASection: React.FC<QASectionProps> = ({ fontScale, onShowLightbox }) => {
                 <strong>晚餐進入主餐廳或付費餐廳：</strong>建議穿著休閒長褲/有領上衣，避免短褲、無袖背心、拖鞋。
               </div>
               <div>
-                <strong>船長之夜：</strong>建議穿著正式服裝，男生襯衫+長褲，女生洋裝或禮服。
+                <strong>船長之夜：</strong>建議穿著較正式服裝，男生襯衫(有領衣)+長褲，女生洋裝或小禮服。
               </div>
               <div>
                 <strong>健身房/泳池：</strong>適合運動的衣服/泳裝。
@@ -457,12 +457,12 @@ const OverviewView: React.FC<ViewProps> = ({ trip, fontScale, isDarkMode, onShow
 
   // Weather Data Mock
   const weatherForecast = [
-    { date: '1/10', loc: '新加坡', temp: '26-31°', icon: 'rain', desc: '午後雷陣雨' },
-    { date: '1/11', loc: '新加坡', temp: '27-32°', icon: 'cloudy', desc: '多雲時晴' },
-    { date: '1/12', loc: '新加坡', temp: '27-32°', icon: 'sun', desc: '晴朗炎熱' },
-    { date: '1/13', loc: '檳城', temp: '26-33°', icon: 'sun', desc: '豔陽高照' },
-    { date: '1/14', loc: '普吉島', temp: '27-31°', icon: 'partly', desc: '晴時多雲' },
-    { date: '1/15', loc: '安達曼海', temp: '25-30°', icon: 'partly', desc: '海風舒適' },
+    { date: '1/10', loc: '新加坡', temp: '25-31°', icon: 'partly', desc: '多雲時晴' },
+    { date: '1/11', loc: '新加坡', temp: '25-31°', icon: 'rain', desc: '午後小雨' },
+    { date: '1/12', loc: '新加坡', temp: '25-31°', icon: 'storm', desc: '午後雷雨' },
+    { date: '1/13', loc: '檳城', temp: '26-33°', icon: 'rain', desc: '午後小雨' },
+    { date: '1/14', loc: '普吉島', temp: '27-32°', icon: 'sun', desc: '晴時多雲' },
+    { date: '1/15', loc: '安達曼海', temp: '25-31°', icon: 'partly', desc: '海風舒適' },
     { date: '1/16', loc: '新加坡', temp: '26-30°', icon: 'rain', desc: '短暫陣雨' },
   ];
 
@@ -472,6 +472,8 @@ const OverviewView: React.FC<ViewProps> = ({ trip, fontScale, isDarkMode, onShow
       case 'cloudy': return <Cloud className="h-6 w-6 text-stone-400" />;
       case 'sun': return <Sun className="h-6 w-6 text-amber-500" />;
       case 'partly': return <CloudSun className="h-6 w-6 text-brand-400" />;
+      case 'storm': return <CloudLightning className="h-6 w-6 text-purple-500" />; // 範例：新增雷雨
+      case 'windy': return <Wind className="h-6 w-6 text-teal-500" />;  // 範例：新增強風
       default: return <Sun className="h-6 w-6 text-amber-500" />;
     }
   };
